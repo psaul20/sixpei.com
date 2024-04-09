@@ -1052,9 +1052,25 @@ section .container {
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .info-box .social-links p {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 12px;
+  transition: 0.3s;
 }
 
 .contact .info-box .social-links a:hover {
+  color: #18d26e;
+}
+
+.contact .info-box .social-links p:hover {
   color: #18d26e;
 }
 
